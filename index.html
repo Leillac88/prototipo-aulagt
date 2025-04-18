@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal do Aluno - Login</title>
-    <meta name="description" content="Acesse o Portal do Aluno da Geração Tech para visualizar seus cursos, acompanhar seu progresso e muito mais. Faça seu login com segurança.">
-
-    <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="css/main.css">
+    <title>Portal do Aluno - Login</title>
+
+    <meta name="description" content="Acesse o Portal do Aluno da Geração Tech para visualizar seus cursos, acompanhar seu progresso e muito mais. Faça seu login com segurança.">
+    <meta name="robots" content="noindex, nofollow">
+
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
 </head>
 <body>
     <div class="switch-tema">
@@ -25,17 +27,18 @@
 
         <form>
             <div class="campo">
-                <i class="ph-bold ph-envelope-simple"></i>
-                <input type="email" placeholder="Seu E-mail" required autofocus>
+                <i class="ph ph-envelope-simple"></i>
+                <input type="email" name="email" placeholder="Seu E-mail" required autofocus>
             </div>
 
             <div class="campo">
                 <i class="ph ph-lock-simple-open"></i>
-                <input type="password" placeholder="********" required autofocus>
+                <input type="password" name="password" placeholder="*************" required autofocus>
             </div>
-            <button type="submit">Entrar</button>
-        </form>
 
+            <button type="submit">Entrar</button>
+            
+        </form>
 
     </main>
 </body>
